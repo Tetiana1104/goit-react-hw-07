@@ -1,0 +1,35 @@
+.list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #f4f6f8;
+  border-radius: 8px;
+  border: 1px solid #dcdde1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact p {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.contact button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #c0392b;
+}
